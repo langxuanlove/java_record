@@ -46,6 +46,7 @@ public class SpringCxfPlugin implements Plugin {
 //	    PluginServlet.registerServlets(arg0, this, webXML1);  
 	    //绕过登录验证过程.
 	    AuthCheckFilter.addExclude("springcxf/*");
+	    System.out.println("444444444444444444444444SpringCxfPlugin");
 	    System.out.println("========================");
 	}
 }

@@ -16,8 +16,9 @@ public class CustomDispatcherServlet extends DispatcherServlet {
         String contextConfigLocation =homeProperty+pluginDir + File.separatorChar+ "PluginServlet-servlet.xml";  
         // 更改模板目录  
 //      XMLEditor.alterXML(pluginDir, contextConfigLocation);  
-        contextConfigLocation = "file:" +contextConfigLocation;
+        contextConfigLocation = "file:/" +contextConfigLocation;
         System.out.println("contextConfigLocation:"+contextConfigLocation);
+        System.out.println("33333333333333333333333333333333333333333CustomDispatcherServlet");
         super.setContextConfigLocation(contextConfigLocation);  
     }  
 }
