@@ -9,19 +9,19 @@ http://blog.csdn.net/poem_of_sunshine/article/details/77894438
 3.群组事件监听<br/> 
 4.session事件监听<br/>
 5.http请求给指定用户发送消息<br/>
+
+
 待开发<br/>
 1.在线用户监听：onlineusers<br/>
-参考：https://github.com/candy-chat/onlineUsersPlugin
+参考：https://github.com/candy-chat/onlineUsersPlugin    <br/>
 2.apns插件开发<br/>
 3.注册用户插件<br/>
 参考：<br/>
 https://github.com/pnspinelli/registerUser
 https://github.com/wangzognwen/openfire_plugin_wechat
-https://github.com/sunshinefather/openfire-plugin-radar
+https://github.com/sunshinefather/openfire-plugin-radar     <br/>
 4.判断用户是否在线<br/>
-http://blog.csdn.net/newjueqi/article/details/8613125
-
-
+http://blog.csdn.net/newjueqi/article/details/8613125      <br/>
 5.更改了JiveClassLoader主类初始化加载lib的同时加载了springcxf中的lib。<br/>
 融合成功了，（但是不标准，还是有些问题.都是正确的执行方式加载的openfire的lib>插件lib>web-custom.xml。但是spring就是不解析spring.xml文件,所以只能进行更改加载lib的方式<br/>
 PluginClassLoader是加载插件的lib的，增加了测试代码.<br/>
