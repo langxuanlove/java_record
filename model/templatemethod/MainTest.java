@@ -1,4 +1,5 @@
-package model.prototype;
+package model.templatemethod;
+
 /**
  * 基于继承的代码复用技术.
  * 

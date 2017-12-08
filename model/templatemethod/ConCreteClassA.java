@@ -1,4 +1,4 @@
-package model.prototype;
+package model.templatemethod;
 
 public class ConCreteClassA extends AbstractClass{
 

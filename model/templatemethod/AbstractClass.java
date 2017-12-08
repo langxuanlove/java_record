@@ -1,4 +1,5 @@
-package model.prototype;
+package model.templatemethod;
+
 
 /**
  * http://blog.csdn.net/lovelion/article/details/8299794
