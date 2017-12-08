@@ -37,3 +37,5 @@ openfire的融合springmvc例子<br/>
 
 
 JiveClassLoader也有具体的注释说明<br/>
+
+1.model包是具体的设计模式的例子<br/>
